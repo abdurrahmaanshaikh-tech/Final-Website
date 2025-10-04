@@ -1,0 +1,183 @@
+@charset "UTF-8";
+body {
+   
+    background: white; 
+    background: -moz-linear-gradient(to top, blue 20%,#E6BBAD 80%); 
+    background: -webkit-linear-gradient(to top, blue 20%,#E6BBAD 80%); 
+    background: -o-linear-gradient(to top, blue 20%,#E6BBAD 80%); 
+    background: linear-gradient(to top, blue 20%,#E6BBAD 80%);
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+header, footer
+{
+   background-color: blue;
+   color: #BBE6AD; 
+   padding-top: 5px;
+   padding-bottom: 5px;
+   margin: 0px;
+   
+}
+footer a
+{
+    color: black;
+    text-decoration: none;
+}
+aside
+{
+    background-color: #E6BBAD;
+    float: right;
+    margin: 5px;
+    padding: 5px;
+    width: 250px;
+}
+
+#wrapper {
+    width: 960px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+   
+    background: white; 
+    background: -moz-linear-gradient(to top, blue 20%,#E6BBAD 80%); 
+    background: -webkit-linear-gradient(to top, blue 20%,#E6BBAD 80%); 
+    background: -o-linear-gradient(to top, blue 20%,#E6BBAD 80%); 
+    background: linear-gradient(Transparent);
+    font-family: Verdana, Geneva, Arial, sans-serif;
+}
+
+
+#right-column {
+    text-align: center;
+    float: top;
+    width: 960px;
+    height: 350px;
+    background-color: #D8ADE6;
+    color: darkred;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&1+0,0+100;White+to+Transparent */
+background: linear-gradient(360deg,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+}
+mark
+{
+    background-color: #D8ADE6;
+}
+figure
+{
+    position: relative;
+    background-color: #E6BBAD;
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    padding: auto;
+    float: left;
+    border: 2px solid black;
+}
+figcaption
+{
+    position: bottom;
+    background-color: black;
+    color: white;
+}
+article
+{
+    height: 520px;
+}
+
+h1,h2,h3,h4,h5,h6,p,li {
+    margin-left: 15px;
+}
+
+#footer {
+    height: 0px;
+    margin-bottom: 0px;   
+    color: #BBE6AD
+   
+}
+
+#banner {
+    height: 120px;
+    background-color: #BBE6AD;
+    border-radius: 15px;
+    box-shadow: 5px 5px 3px gray;
+    
+}
+
+
+#banner h1 {
+    color: blue;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.box {
+    height: 150px;
+    width: 150px;
+    float: left;
+    background-color: #BBE6AD;
+    margin: 15px;
+    padding: 25px;
+    opacity: .5;
+    border-radius: 50%;
+}
+
+.box:hover {
+    opacity: 1;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e4f5fc+0,bfe8f9+50,9fd8ef+60,2ab0ed+100 */
+background: radial-gradient(ellipse at center,  rgba(228,245,252,1) 0%,rgba(191,232,249,1) 50%,rgba(159,216,239,1) 60%,rgba(42,176,237,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+}
+
+
+.clear {
+    clear: both;
+}
+
+video
+{ 
+    width: 400px; 
+    padding: 15px; 
+    margin: 15px; 
+    background-color:black; 
+    border:2px white solid; 
+    box-shadow: 10px 10px 5px black;
+}
+.vid{
+    margin: auto; 
+    text-align: center;
+}
+
+.navigation
+{
+    text-align: center;
+    display: block;
+    background-color: #BBE6AD;
+    color: white;
+    width: 600px;
+    width: auto;  
+    padding: 20px;
+    margin: 15px auto;
+    border-radius: 15px;
+    box-shadow: 5px 5px 3px gray;
+    
+}
+.navigation a
+{
+    text-decoration: none;
+    background-color: #E6BBAD;
+    color: blue;
+    padding: 5px 20px;
+    margin: 10px;
+    border-radius: 30px;
+    font-size: 18px;
+    border: 2px blue solid;
+}
+.navigation a:hover
+{
+    opacity: 1;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e4f5fc+0,bfe8f9+50,9fd8ef+60,2ab0ed+100 */
+    background: radial-gradient(ellipse at center,  rgba(228,245,252,1) 0%,rgba(191,232,249,1) 50%,rgba(159,216,239,1) 60%,rgb(2, 168, 245) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
