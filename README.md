@@ -1,3 +1,5 @@
+repo: https://github.com/abdurrahmaanshaikh-tech/Final-Website
+
 website: https://abdurrahmaanshaikh-tech.github.io/Final-Website/index.html
 https://htmlcolorcodes.com/colors/light-blue/
 i used the tetradic color schemes from the above website. i Did not use Adobe because iu liked this better. i hope this is fine. 
